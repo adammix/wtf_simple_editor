@@ -2,10 +2,10 @@
   "name": "wtf_simple_editor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel src/index.html"
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/*.html"
   },
   "keywords": [],
   "author": "",
